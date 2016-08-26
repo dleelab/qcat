@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>QCAT by dleelab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">QCAT</h1>
+      <h2 class="project-tagline">quasi-causality test </h2>
+      <a href="https://github.com/dleelab/qcat" class="btn">View on GitHub</a>
+      <a href="https://github.com/dleelab/qcat/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/dleelab/qcat/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h2>
+<a id="citing-qcat" class="anchor" href="#citing-qcat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Citing QCAT</h2>
+
+<p><strong><em>QCAT: testing causality of variants using only summary association statistics</em></strong>, 
+Donghyung Lee; Tim B. Bigdeli; Vladimir I. Vladimirov; Ayman H. Fanous; Silviu-Alin Bacanu; submitted.</p>
+
+<h2>
+<a id="acknowledgement" class="anchor" href="#acknowledgement" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Acknowledgement</h2>
+
+<p><strong>This work is supported by the National Institutes of Health with grants R25DA26119, R21MH100560, R21AA022717 and P50AA022537.</strong></p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/US-NIH-NIDA-Logo.svg/440px-US-NIH-NIDA-Logo.svg.png" height="100px">
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/US-NIH-NIMH-Logo.svg/280px-US-NIH-NIMH-Logo.svg.png" height="100px">
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/72/US-NIH-NIAAA-Logo.svg/440px-US-NIH-NIAAA-Logo.svg.png" height="100px"></p>
+
+<h2>
+<a id="download-qcatmix" class="anchor" href="#download-qcatmix" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Download QCATMIX</h2>
+
+<p>The current release (Version 0.1.0) of QCATMIX is for a Linux user. The pre-compiled executables for other operating systems (e.g.,  Windows, MacOS) will be available soon. The latest source codes of QCAT/QCATMIX are available upon request (dustorm_at_gmail_dot_com)</p>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Direct download link</strong></th>
+<th align="left"><strong>Version</strong></th>
+<th align="left"><strong>Release Date</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="">QCATMIX for a Linux user</a></td>
+<td align="left">v1.0.0</td>
+<td align="left">08/25/2016</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="download-reference-panels" class="anchor" href="#download-reference-panels" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Download Reference Panels</h2>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Direct download link</strong></th>
+<th align="left"><strong>Number of Samples</strong></th>
+<th align="left"><strong>Number of populations</strong></th>
+<th align="left"><strong>NCBI build</strong></th>
+<th align="left"><strong>Release Date</strong></th>
+<th align="left"><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="https://drive.google.com/file/d/0B_9H56XID17SLWJaWjlYekxkVkU/view?usp=sharing">1000 Genomes Phase1 Release3</a></td>
+<td align="left">1092</td>
+<td align="left">14</td>
+<td align="left">build 37 (hg19)</td>
+<td align="left">Nov. 23 2010</td>
+<td align="left">Includes chr1-chr22</td>
+</tr>
+</tbody>
+</table>
+
+<p>Here are the 1000 Genome population abbreviations used by QCATMIX. AFR is an abbreviation for African; AMR for admixed American; ASN for East Asian; EUR for European. </p>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Population Abbreviation</strong></th>
+<th align="left"><strong>Number of Subjects</strong></th>
+<th align="left"><strong>Super Population</strong></th>
+<th align="left"><strong>Population Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ASW</td>
+<td align="left">61</td>
+<td align="left">AFR</td>
+<td align="left">African Ancestry in Southwest US</td>
+</tr>
+<tr>
+<td align="left">CEU</td>
+<td align="left">85</td>
+<td align="left">EUR</td>
+<td align="left">Utah residents (CEPH) with Northern and Western European ancestry</td>
+</tr>
+<tr>
+<td align="left">CHB</td>
+<td align="left">97</td>
+<td align="left">ASN</td>
+<td align="left">Han Chinese in Beijing, China</td>
+</tr>
+<tr>
+<td align="left">CHS</td>
+<td align="left">100</td>
+<td align="left">ASN</td>
+<td align="left">Southern Han Chinese</td>
+</tr>
+<tr>
+<td align="left">CLM</td>
+<td align="left">60</td>
+<td align="left">AMR</td>
+<td align="left">Colombian in Medellin, Colombia</td>
+</tr>
+<tr>
+<td align="left">FIN</td>
+<td align="left">93</td>
+<td align="left">EUR</td>
+<td align="left">Finnish in Finland</td>
+</tr>
+<tr>
+<td align="left">GBR</td>
+<td align="left">89</td>
+<td align="left">EUR</td>
+<td align="left">British in England and Scotlant</td>
+</tr>
+<tr>
+<td align="left">IBS</td>
+<td align="left">14</td>
+<td align="left">EUR</td>
+<td align="left">Iberian populations in Spain</td>
+</tr>
+<tr>
+<td align="left">JPT</td>
+<td align="left">89</td>
+<td align="left">ASN</td>
+<td align="left">Japanese in Tokyo, Japan</td>
+</tr>
+<tr>
+<td align="left">LWK</td>
+<td align="left">97</td>
+<td align="left">AFR</td>
+<td align="left">Luhya in Wenbuye, Kenya</td>
+</tr>
+<tr>
+<td align="left">MXL</td>
+<td align="left">66</td>
+<td align="left">AMR</td>
+<td align="left">Mexican Ancestry from Los Angeles, USA</td>
+</tr>
+<tr>
+<td align="left">PUR</td>
+<td align="left">55</td>
+<td align="left">AMR</td>
+<td align="left">Puerto Rican in Puerto Rico</td>
+</tr>
+<tr>
+<td align="left">TSI</td>
+<td align="left">98</td>
+<td align="left">EUR</td>
+<td align="left">Toscani in Italia</td>
+</tr>
+<tr>
+<td align="left">YRI</td>
+<td align="left">88</td>
+<td align="left">AFR</td>
+<td align="left">Yoruba in Ibadan, Nigeria</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="options" class="anchor" href="#options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Options</h2>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Option</strong></th>
+<th align="left"><strong>Short Flag</strong></th>
+<th align="left"><strong>Parameter</strong></th>
+<th align="left"><strong>Default</strong></th>
+<th align="left"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">--version</td>
+<td align="left">-v</td>
+<td align="left">none</td>
+<td align="left">none</td>
+<td align="left">Prints version information.</td>
+</tr>
+<tr>
+<td align="left">--help</td>
+<td align="left">-h</td>
+<td align="left">none</td>
+<td align="left">none</td>
+<td align="left">Outputs a full description of all QCAT/QCATMIX options.</td>
+</tr>
+<tr>
+<td align="left">--local</td>
+<td align="left">none</td>
+<td align="left">none</td>
+<td align="left">none</td>
+<td align="left">Execute QCAT local test.</td>
+</tr>
+<tr>
+<td align="left">--reference</td>
+<td align="left">-r</td>
+<td align="left">filename</td>
+<td align="left">none</td>
+<td align="left">The filename of the reference population data.</td>
+</tr>
+<tr>
+<td align="left">--referenceIndex</td>
+<td align="left">-i</td>
+<td align="left">filename</td>
+<td align="left">none</td>
+<td align="left">The filename of the reference population index data.</td>
+</tr>
+<tr>
+<td align="left">--referenceInfo</td>
+<td align="left">none</td>
+<td align="left">filename</td>
+<td align="left">none</td>
+<td align="left">The filename of the reference panel information.</td>
+</tr>
+<tr>
+<td align="left">--output</td>
+<td align="left">-o</td>
+<td align="left">filename</td>
+<td align="left">out.qcat</td>
+<td align="left">The filename of QCAT/QCATMIX output</td>
+</tr>
+<tr>
+<td align="left">--chromosome</td>
+<td align="left">-c</td>
+<td align="left">integer or string</td>
+<td align="left">1.0</td>
+<td align="left">Chromosome number (or chromosome number and arm, e.g., 1q, 22p)</td>
+</tr>
+<tr>
+<td align="left">--startBp</td>
+<td align="left">-non</td>
+<td align="left">decimal</td>
+<td align="left">none</td>
+<td align="left">The start position of prediction window.</td>
+</tr>
+<tr>
+<td align="left">--endBp</td>
+<td align="left">-non</td>
+<td align="left">decimal</td>
+<td align="left">none</td>
+<td align="left">The end position of prediction window.</td>
+</tr>
+<tr>
+<td align="left">--windowSize</td>
+<td align="left">-n</td>
+<td align="left">decimal</td>
+<td align="left">1.0</td>
+<td align="left">The size of the prediction window (Mb).</td>
+</tr>
+<tr>
+<td align="left">--wingSize</td>
+<td align="left">-m</td>
+<td align="left">decimal</td>
+<td align="left">0.5</td>
+<td align="left">The size of the wing padded on the left and right of the prediction window (Mb).</td>
+</tr>
+<tr>
+<td align="left">--populationWeight</td>
+<td align="left">-w</td>
+<td align="left">filename</td>
+<td align="left">none</td>
+<td align="left">The filename of the population weight data.</td>
+</tr>
+</tbody>
+</table>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/dleelab/qcat">QCAT</a> is maintained by <a href="https://github.com/dleelab">dleelab</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
